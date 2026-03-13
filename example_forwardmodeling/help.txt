@@ -1,0 +1,5 @@
+This program is designed for 2.5D direct current (DC) forward modeling for cylindrical objects. This folder contains calculation examples for the Wenner and Dipole-dipole arrays for three models. 
+
+The files main_model1o.m, main_model2o.m, and main_model3o.m correspond to the calculation results of the potential distribution for the Dipole-dipole array for Models 1, 2, and 3, respectively. The files main_model1w.m, main_model2w.m, and main_model3w.m correspond to the calculation results of the potential distribution for the Wenner array for Models 1, 2, and 3, respectively. The output results are stored in an Excel spreadsheet with four columns. The first column represents the layer number, the second column represents the index of the C1 electrode, the third column is the voltage value measured by the P1 electrode, and the fourth column is the voltage value measured by the P2 electrode.
+
+After exporting the Excel results, use them as input and run main_finalrho.m to calculate the corresponding apparent resistivity distribution.
